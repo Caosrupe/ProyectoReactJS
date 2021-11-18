@@ -18,19 +18,16 @@
   justify-content: center;
 }
 
-
-
 .thead{
   width: 18rem;
   color: #fff;
   background-color: #055664;
 }
+
 .galeria {
   display: inline-block;
   margin: 10px;
 }
-
-
 
 .pie{
   background-color: #055664;
@@ -41,7 +38,6 @@
   padding: 5px;
   margin-top: 25px;
 }
-
 
 .tabla{  
   text-align: center;
@@ -66,6 +62,7 @@
   padding: 8px;
   border-color: red;
 }
+
 .cesta{
   color: #282c34;
   text-decoration: none;
@@ -148,14 +145,13 @@ background-color: #055664;
   font-size: 18px;
   margin-left: 30px;
   text-decoration: none;
-
 }
+
 .principal{
   width:100%;
   height: auto;
   margin-bottom: 15px;
 }
-
 
 .counter{
   text-align: center;
@@ -171,7 +167,6 @@ background-color: #055664;
   align-items: flex-start;
   background-color: #055664;
   margin-bottom: 15px;
-
 }
 
 .pagobtn{
@@ -192,7 +187,9 @@ background-color: #055664;
   border-radius: 50%;
   border: 7px solid #fff;
   margin: 20px
-  }
+}
+
+
 /* IDs */
 
 #navegar{

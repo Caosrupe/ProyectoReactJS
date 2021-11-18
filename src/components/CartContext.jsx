@@ -15,21 +15,21 @@ export const CartProvider = ({ children }) => {
         let sum, i;
         sum = 0;
         i = 0;
-            if (carts.length) {
-            
-                while (i < carts.length) {
+        if (carts.length) {
+
+            while (i < carts.length) {
                 sum = carts[i].count + sum;
                 i++;
             }
-            
+
             return sum;
         }
-        
+
         else {
             return 0;
         }
     }
-    
+
     const clear = () => {
         setCarts([]);
     }
@@ -37,9 +37,9 @@ export const CartProvider = ({ children }) => {
         let sum, i;
         sum = 0;
         i = 0;
-            if (carts.length) {
-                
-                while (i < carts.length) {
+        if (carts.length) {
+
+            while (i < carts.length) {
                 sum = carts[i].count * carts[i].price + sum;
                 i++;
             }
@@ -54,14 +54,14 @@ export const CartProvider = ({ children }) => {
         let i = 0;
         if (!carts)
             return false;
-        
+
         if (carts.length) {
-            
+
             while (i < carts.length) {
-                
+
                 if (carts[i].itemid === itemid)
-                    
-                return true;
+
+                    return true;
                 i++;
             }
 
@@ -74,11 +74,11 @@ export const CartProvider = ({ children }) => {
     }
     const isInCartIndex = ({ itemid }) => {
         let i = 0;
-            if (carts.length) {
-                
-                while (i < carts.length) {
-                
-                    if (carts[i].itemid === itemid)
+        if (carts.length) {
+
+            while (i < carts.length) {
+
+                if (carts[i].itemid === itemid)
                     return i;
                 i++;
             }
@@ -89,7 +89,7 @@ export const CartProvider = ({ children }) => {
             return false;
         }
     }
-    
+
     return <CartContext.Provider value={{ carts, additem, removeitem, cartlength, clear, total, isInCartIndex, isInCart }}> {children}
     </CartContext.Provider>
 }

@@ -23,12 +23,12 @@ const Ordenes = () => {
 
     const proccess = () => {
 
-        if  ( !Nombre || !Apellido  || !phone  ||  !email ){
+        if (!Nombre || !Apellido || !phone || !email) {
             alert("Complete el formulario")
-            console.log(Nombre, Apellido,email,phone)
+            console.log(Nombre, Apellido, email, phone)
             return
-         }
-        console.log(Nombre, Apellido,email,phone)
+        }
+        console.log(Nombre, Apellido, email, phone)
 
         InsertOrder(
 
