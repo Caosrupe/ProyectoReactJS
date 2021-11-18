@@ -1,0 +1,204 @@
+.top{
+  padding-top: 20px;
+}
+
+.body{
+  color: #fff;
+  text-decoration: none;
+}
+
+.card{
+  width: 18rem;
+  padding: 5px;
+  background-image:linear-gradient(#283b3f,#055664);
+}
+
+.centrar{
+  text-align: center;
+  justify-content: center;
+}
+
+
+
+.thead{
+  width: 18rem;
+  color: #fff;
+  background-color: #055664;
+}
+.galeria {
+  display: inline-block;
+  margin: 10px;
+}
+
+
+
+.pie{
+  background-color: #055664;
+  color:#fff;
+  align-items: center;
+  text-align: center;
+  height: 50px;
+  padding: 5px;
+  margin-top: 25px;
+}
+
+
+.tabla{  
+  text-align: center;
+}
+
+.select{
+  align-items: center;
+  color: #60269e;
+  margin-top: 35px;
+}
+
+.subtitulo{
+  color: #fff;
+  text-align: center;
+  padding: 2px;
+}
+
+.botondel{
+  border-radius: 5px;
+  background-color: red;
+  color: #ffff;
+  padding: 8px;
+  border-color: red;
+}
+.cesta{
+  color: #282c34;
+  text-decoration: none;
+  font-size: 45px;
+  text-align: center;
+}
+
+.quiero{
+  border-radius: 7px;
+  background-color: rgb(78, 47, 47);
+  text-decoration: none;
+}
+
+.regreso{
+  border-radius: 5px;
+  margin-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #055664;
+  color: #ffff;
+  font-size: 18px;
+}
+
+.clarito{
+background-color: #055664;
+}
+
+.fonts{
+  color: #ffff;
+}
+
+.formulario{
+  text-align: center;
+  color: black;
+  align-items: center;
+  background-color: #055664;
+}
+
+.campos{
+  border-radius: 5px;
+}
+
+.comprar{
+  background-color:rgb(78, 47, 47);
+  color: #fff;
+  border-radius: 5px;
+  border-color: rgb(78, 47, 47);
+  padding: 3px;
+  margin-bottom: 20px;
+}
+
+.navbar{
+    background-color: #055664;
+}
+
+.logo{
+  width: 250px;
+  height: 80px;
+  display: inline-block;
+}
+
+.letrasnav{
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+
+.sub{
+  color: #055664;
+  text-decoration: none;
+}
+
+.clarito{
+  color: #fff;
+}
+
+.carrito{
+  color: #fff;
+  font-size: 18px;
+  margin-left: 30px;
+  text-decoration: none;
+
+}
+.principal{
+  width:100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+
+.counter{
+  text-align: center;
+  color: #fff;
+}
+
+.contenedor{
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+  align-items: flex-start;
+  background-color: #055664;
+  margin-bottom: 15px;
+
+}
+
+.pagobtn{
+  border-radius: 7px;
+  background-color: #055664;
+  color:#fff;
+  align-items: center;
+  border-color: #055664;
+  margin-left: 30%;
+  margin-bottom: 50px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.loguitos{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 7px solid #fff;
+  margin: 20px
+  }
+/* IDs */
+
+#navegar{
+  color: #fff;
+}
+
+#centerman{
+  background-color: #055664;
+}
